@@ -4,8 +4,8 @@ const nextConfig = {
     async redirects(){
       return [
         {
-          source: '/cosmiccowboys',
-          destination: 'https://cosmiccowboys.cloud',
+          source: '/nilla',
+          destination: 'lavender-decisive-coyote-138.mypinata.cloud',
           permanent: false
         },
         {
