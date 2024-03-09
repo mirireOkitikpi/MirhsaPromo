@@ -17,7 +17,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:image" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Aleph%20Zero.png" />
     <og:image" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Aleph%20Zero.png"/> 
     <meta property="fc:frame:button:1" content="vBack" />
-    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
+    <meta property="fc:frame:post_url" content="" />
   </head></html>`);
   } else {
   return new NextResponse(`<!DOCTYPE html><html><head>
