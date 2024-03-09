@@ -14,7 +14,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 7</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmaqUXvy8hbcN1Ci657R8QFWHGa2sAE4WjhDa4oNLjbq4R/7.png" />
+    <meta property="fc:frame:image" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Aleph%20Zero.png" />
+    <og:image" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Aleph%20Zero.png"/> 
     <meta property="fc:frame:button:1" content="vBack" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
   </head></html>`);
@@ -22,9 +23,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmaqUXvy8hbcN1Ci657R8QFWHGa2sAE4WjhDa4oNLjbq4R/${id}.png" />
+    <meta property="fc:frame:image" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Near.png" />
+    <og:image" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Near.png"/> 
     <meta property="fc:frame:button:1" content="Next Page" />
-    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=${nextId}" />
+    <meta property="fc:frame:post_url" content="https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/avalanche.jpg" />
   </head></html>`);
   }
 }
