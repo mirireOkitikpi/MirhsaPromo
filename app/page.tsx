@@ -4,20 +4,20 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Begin"
+        label: "Next"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qme4FXhoxHHfyzTfRxSpASbMF8kajLEPkRQWhwWu9pkUjm/0.png`,
+  image: `https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Aleph%20Zero.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
-  title: 'Cosmic Cowboys',
-  description: 'A frame telling the story of Cosmic Cowboys',
+  title: 'Mirsha Promotions',
+  description: 'idk',
   openGraph: {
-    title: 'Cosmic Cowboys',
-    description: 'A frame telling the story of Cosmic Cowboys',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qme4FXhoxHHfyzTfRxSpASbMF8kajLEPkRQWhwWu9pkUjm/0.png`],
+    title: 'Mirsha Promotions',
+    description: 'idk',
+    images: [`https://lavender-decisive-coyote-138.mypinata.cloud/ipfs/QmTiNWZWuH2gJHGUuLPmAtaZ9YES1zSxAMDLhGRNGfSc4Y/Near.png`],
   },
   other: {
     ...frameMetadata,
